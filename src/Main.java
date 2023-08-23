@@ -73,8 +73,8 @@ public class Main {
         // Решение:
         float spendingAmount = 0;
         float averageAmount = 0;
-        for (int i = 0; i < arr.length; i++) {
-            spendingAmount += arr[i];
+        for (int sum : arr) {
+            spendingAmount += sum;
         }
         averageAmount = spendingAmount / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageAmount + " рублей");
